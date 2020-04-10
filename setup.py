@@ -1,9 +1,9 @@
 from setuptools import setup
 
 APP = ['orderprog.py']
-DATA_FILES = ['Thrive-logo-512p.gif']
+DATA_FILES = ['/Users/lukewithey/PycharmProjects/crumpetorium_order_list/images/crumpetorium_logo.jpg']
 OPTIONS = {
-    'iconfile':'hnet.com-image.ico',
+    'iconfile':'hnet.com-image.ico', #choose a new iconfile
     'argv_emulation': True,
     'packages': ['certifi'],
 }
