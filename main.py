@@ -18,6 +18,10 @@ class OrderProg:
         self.textentry("testing", 1)
         self.textentry("testing", 2)
 
+        variable = StringVar(self.root)
+        variable.set("one")
+        OptionMenu(self.root, "one", "two", "three").grid(row=3,column=1)
+
     def textentry(self, labeltext, entrynum):
 
         # work out which row
